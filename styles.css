@@ -1,7 +1,7 @@
 /* Reset default margin and padding */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
+body, h1, h2, h3, h4, h5, h6, ul, li {
     margin: 0;
-    padding: 0;
+    padding: 30px;
 }
 
 /* Apply base font styles */
@@ -36,9 +36,93 @@ body {
 }
 
 /* Center the content */
-.image {
+.intro {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 50vh;
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.intro p {
+  padding: 50px;
+  margin-right: 100px;
+  background-color: #d9d9d9;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between; /* Distribute items with equal space between */
+    align-items: center;
+    padding: 20px; /* Add some padding for spacing */
+    background-color: #d9d9d9;
+}
+
+.mission {
+    color: #154e13;
+    padding: 25px;
+}
+
+/* Apply equal spacing to image elements */
+.hero img {
+    flex: 1; /* Distribute available space equally among image elements */
+    margin: 0 100px; /* Adjust margin for spacing between images */
+    max-width: 50%; /* Limit each image to 33% of the container width */
+}
+
+p {
+    color: #154e13;
+}
+
+.wrapper {
+    position: absolute;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    background: url(“http://driving-tests.org/wp-content/uploads/2012/03/night-road.jpg” );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    width: 28vmin;
+    height: 28vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em 0;
+    position: relative;
+    font-size: 16px;
+    border-radius: 0.5em;
+    backdrop-filter: blur(10px);
+    box-shadow: -1px -1px 4px #aaa9a9a2,
+                 1px 1px 7px rgba(147, 149, 151, 0.671);
+   }
+
+   hange the color to your liking here.
+
+i {
+ color: #42f9e8;
+ font-size: 3.8em;
+ text-align: center;
+}
+span.num {
+ color: #ffffff;
+ display: grid;
+ place-items: center;
+ font-weight: 600;
+ font-size: 3em;
+}
+span.text {
+ color: #e0e0e0;
+ font-size: 1em;
+ text-align: center;
+ pad: 0.7em 0;
+ font-weight: 400;
+ line-height: 0;
 }
