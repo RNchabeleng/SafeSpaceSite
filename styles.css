@@ -4,6 +4,10 @@ body, h1, h2, h3, h4, h5, h6, ul, li {
     padding: 30px;
 }
 
+p {
+    color: #154e13;
+}
+
 /* Apply base font styles */
 body {
     font-family: Arial, sans-serif;
@@ -44,9 +48,9 @@ body {
 }
 
 .intro p {
-  padding: 50px;
-  margin-right: 100px;
-  background-color: #d9d9d9;
+    padding: 50px;
+    margin-right: 100px;
+    background-color: #d9d9d9;
 }
 
 .hero {
@@ -69,24 +73,13 @@ body {
     max-width: 50%; /* Limit each image to 33% of the container width */
 }
 
-p {
-    color: #154e13;
-}
-
 .wrapper {
-    position: absolute;
     width: 80vw;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+ 
     display: flex;
     justify-content: space-around;
     gap: 10px;
-    background: url(“http://driving-tests.org/wp-content/uploads/2012/03/night-road.jpg” );
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+    height: 35vh;
 }
 
 .container {
@@ -100,29 +93,32 @@ p {
     font-size: 16px;
     border-radius: 0.5em;
     backdrop-filter: blur(10px);
-    box-shadow: -1px -1px 4px #aaa9a9a2,
+    box-shadow: -1px -1px 4px #154e13,
                  1px 1px 7px rgba(147, 149, 151, 0.671);
-   }
-
-   hange the color to your liking here.
-
-i {
- color: #42f9e8;
- font-size: 3.8em;
- text-align: center;
 }
+
 span.num {
- color: #ffffff;
- display: grid;
- place-items: center;
- font-weight: 600;
- font-size: 3em;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
 }
+
 span.text {
- color: #e0e0e0;
- font-size: 1em;
- text-align: center;
- pad: 0.7em 0;
- font-weight: 400;
- line-height: 0;
+    color: #154e13;
+    font-size: 1em;
+    text-align: center;
+    padding: 0.7em 0; /* Correct the property name */
+    font-weight: 400;
+    line-height: 0;
+}
+
+.wrapper p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    padding: 0 15px 0px ;
+    color: #154e13;
 }
