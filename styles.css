@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply base font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dce7cb;
+}
+
+/* Sticky menu styles */
+.sticky-menu {
+    position: sticky;
+    top: 0;
+}
+
+.menu-options {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-options a {
+    text-decoration: none;
+    color: #154e13;
+}
+
+.menu-options a:hover,
+.menu-options a:active,
+.menu-options a:visited {
+    color: green;
+}
+
+/* Center the content */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
