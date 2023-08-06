@@ -32,12 +32,14 @@
         </p>
     </div>
 
-    <div>
-        <div>
-            <h1 id="safeSpacesTitle">GBV 
-                <p>GBV is a pandemic in South Africa</p>
-            </h1><br/>
-        </div>
+    <div class="offer">
+        <h3 id="safeSpacesTitle">What we offer:
+            <p>"In the battle against GBV, data is paramount and every voice matters." Cases are made by giving
+                reliable and consistent data, however many victims don't think of record-keeping when navigating GBV,
+                and most don't know that they can have their GP keep records of any icidents. <b>Safe Space</b> allows
+                victims to keep record of any incidents by providing a chatbot, you can speak to in any language you're comfortable with, that will assist in reliable record
+                keeping, redirection to necessary resoruces and support groups where needed.</p>
+        </h3><br />
     </div>
 
     <div class="wrapper">
@@ -47,12 +49,12 @@
             <p>In the first 3 months of 2023 there were 10 512 cases reported of rape</p>
         </div>
         <div class="container">
-            <span class="num" data-val="" 1485>000</span>
+            <span class="num" data-val="1485">000</span>
             <span class="text">Attempted Murder</span>
             <p>In the first 3 months of 2023 there were 1 485 cases reported of attempted murder</p>
         </div>
         <div class="container">
-            <span class="num" data-val="219">000</span>
+            <span class="num" data-val="969">000</span>
             <span class="text">Murder of women</span>
             <p>In the first 3 months of 2023 there were 969 murder cases reported of murder</p>
         </div>
@@ -93,7 +95,37 @@
         </div>
     </div>
 
-    <footer></footer>
+  <!-- Chatbot Widget -->
+  <div class="chat-widget">
+    <div class="chat-header">
+        <h3>Chat with Us</h3>
+        <p>Speak to me, Bolela le nna, Thetha nami, Praat met my</p>
+        <button id="chat-toggle-btn"><i class="fas fa-minus"></i></button>
+    </div>
+    <div class="chat-body">
+        <div class="chat-messages" id="chat-messages">
+            <!-- Existing or dynamically added chat messages go here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-input-field" placeholder="Type your message...">
+            <button id="chat-send-btn">Send</button>
+        </div>
+    </div>
+</div>
+   
+
+    <footer>
+        <p class="footer-text">© 2023 Safe Space. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="/legalDocs.html" class="footer-link">Legal Documents</a>
+            <a href="/termsAndConditions.html" class="footer-link">Terms and Conditions</a>
+            <a href="/openCase.html" class="footer-link">Open a Case</a>
+            <a href="/faq.html" class="footer-link">FAQ</a>
+            <a href="/signIn.html" class="footer-link">Sign In</a>
+            <a href="/help.html" class="footer-link">Help</a>
+        </div>
+    </footer>
+    
     <script src="/main.js" defer></script>
 </body>
 

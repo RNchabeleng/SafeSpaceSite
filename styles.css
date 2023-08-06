@@ -1,7 +1,7 @@
 /* Reset default margin and padding */
 body, h1, h2, h3, h4, h5, h6, ul, li {
     margin: 0;
-    padding: 30px;
+    padding: 45px;
 }
 
 p {
@@ -75,7 +75,7 @@ body {
 
 .wrapper {
     width: 80vw;
- 
+ padding: 50px;
     display: flex;
     justify-content: space-around;
     gap: 10px;
@@ -121,4 +121,96 @@ span.text {
     font-size: small;
     padding: 0 15px 0px ;
     color: #154e13;
+}
+
+.offer {
+    background-color: #d9d9d9;
+    padding: 7px;
+    padding-bottom: 5px;
+}
+
+/* Chatbot Widget Styles */
+.chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #154e13;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-body {
+    padding: 10px;
+}
+
+.chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#chat-input-field {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#chat-send-btn {
+    background-color: #154e13;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #154e13;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-link:hover {
+    color: #e0e0e0;
+}
+
+.team {
+    width: 700px; /* Set the desired width */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
 }
